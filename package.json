@@ -5,5 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "auto-changelog": "^2.2.0"
+  },
+  "scripts": {
+    "version": "node_modules/.bin/auto-changelog -p --template keepachangelog && git add CHANGELOG.md"
   }
 }
